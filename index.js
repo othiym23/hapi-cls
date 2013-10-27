@@ -10,6 +10,8 @@ module.exports = {
     var ns = cls.getNamespace(options.namespace);
     if (!ns) ns = cls.createNamespace(options.namespace);
 
+    plugin.app.clsNamespace = ns;
+
     plugin.ext('onRequest', function (request, continuation) {
       ns.bindEmitter(request.raw.req);
       ns.bindEmitter(request.raw.res);
