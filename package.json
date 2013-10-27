@@ -1,6 +1,6 @@
 {
   "name": "hapi-cls",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "continuation-local storage extension for hapi",
   "main": "index.js",
   "scripts": {
