@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "lab": "~1.1.3"
+  },
+  "dependencies": {
+    "continuation-local-storage": "~2.4.3"
   }
 }
