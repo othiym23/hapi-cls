@@ -10,7 +10,7 @@ ns.set('value', 42);
 var Server = require('hapi').Server;
 server = new Server('localhost', 8080);
 
-server.pack.require('..', {namespace : ns.name}, function (err) {
+server.pack.require('hapi-cls', {namespace : ns.name}, function (err) {
   if (err) done(err);
 });
 
