@@ -1,0 +1,28 @@
+{
+  "name": "hapi-cls",
+  "version": "1.0.0",
+  "description": "continuation-local storage extension for hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/othiym23/hapi-cls.git"
+  },
+  "keywords": [
+    "cls",
+    "hapi",
+    "extension",
+    "middleware",
+    "continuation-local-storage"
+  ],
+  "author": "Forrest L Norvell <ogd@aoaioxxysz.net>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/othiym23/hapi-cls/issues"
+  },
+  "devDependencies": {
+    "lab": "~1.1.3"
+  }
+}
